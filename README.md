@@ -38,10 +38,16 @@ papers.csv have 7241 records with 7 attributes of Neural Information Processing 
   - Matplotlib
   - Seaborn
   - Scipy
-- Drop columns
-  This experiment will only use the Id, Year, and the combination of Title and Abstract attribute.
+  
 - Drop missing values
-  Since, there is a lot of missing abstract in dataset I decide to drop all the records with missing abstract.
+  Since, there is a lot of missing abstract in dataset I decide to drop all the records with missing abstract and end up only 3924 records left.
+  
   ![1](https://github.com/amefedora/keyword-extraction/assets/65814424/a2de6b9a-e51a-4ba0-8d81-1797aa94acf7)
+  
+- Drop unused columns and combine the Title and Abstract attribute into one record
+  This experiment will only use the Id, Year, and the combination of Title and Abstract attribute therefore I drop the other attributes.
+  
+  ![2](https://github.com/amefedora/keyword-extraction/assets/65814424/aab5071a-026f-4bd6-a212-8c51c36dc0f3)
 
 - 
+ 
