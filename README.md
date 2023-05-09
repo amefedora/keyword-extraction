@@ -47,7 +47,7 @@ papers.csv have 7241 records with 7 attributes of Neural Information Processing 
 - Drop unused columns and combine the Title and Abstract attribute into one record
   This experiment will only use the Id, Year, and the combination of Title and Abstract attribute therefore I drop the other attributes.
   
-  ![2](https://github.com/amefedora/keyword-extraction/assets/65814424/aab5071a-026f-4bd6-a212-8c51c36dc0f3)
+  ![2](https://github.com/amefedora/keyword-extraction/assets/65814424/45114618-2585-43ee-8276-1ec9415c2df4)
 
 - 
  
