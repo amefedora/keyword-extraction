@@ -38,7 +38,6 @@ papers.csv have 7241 records with 7 attributes of Neural Information Processing 
   - Matplotlib
   - Seaborn
   - Scipy
-
 - Drop columns
   This experiment will only use the Id, Year, and the combination of Title and Abstract attribute.
 - Drop missing values
