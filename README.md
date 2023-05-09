@@ -49,5 +49,5 @@ papers.csv have 7241 records with 7 attributes of Neural Information Processing 
   
   ![2](https://github.com/amefedora/keyword-extraction/assets/65814424/45114618-2585-43ee-8276-1ec9415c2df4)
 
-- 
- 
+# Text Processing
+The combination of Title and Abstract attribute is classified into word count, common word, and uncommon word.
