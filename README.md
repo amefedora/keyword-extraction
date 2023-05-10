@@ -49,9 +49,9 @@ papers.csv have 7241 records with 7 attributes of Neural Information Processing 
   
   ![2](https://github.com/amefedora/keyword-extraction/assets/65814424/45114618-2585-43ee-8276-1ec9415c2df4)
 
-# Text Processing
+# Exploratory Data Analysis
 1. Remove the punctuation, tags, special characters and digit of abstract1 attribute and convert all words to lowercase.
-2. Create abstract1 word count column as new attribute. The word count column will filled with the value of word count.
+2. Create abstract1 word count column as new attribute. The word count column will filled with the value of abstract1 word count.
 
    ![3](https://github.com/amefedora/keyword-extraction/assets/65814424/ac5cefc9-982b-475e-809b-e6d06e5da6e4)
   
@@ -61,5 +61,16 @@ papers.csv have 7241 records with 7 attributes of Neural Information Processing 
     | ------------- | ------------- |
     | ![4](https://github.com/amefedora/keyword-extraction/assets/65814424/12a35422-9fad-476f-8dbc-5e68af3b87ec) |  ![5](https://github.com/amefedora/keyword-extraction/assets/65814424/82ef7cb8-6eda-4e7d-83aa-610a34ba65b0)|
   
+4. Statistical measurement.
+    |  Measurement Attribute | Value |
+    | ------------- | ------------- |
+    | Count | 3924 |
+    | Mean | 160.311927 |
+    | Std | 46.733008 |
+    | Min | 29 |
+    | 25% | 126 |
+    | 50% | 155 |
+    | 75% | 190 |
+    | Max | 346 |
 
 
