@@ -45,9 +45,19 @@ papers.csv have 7241 records with 7 attributes of Neural Information Processing 
   ![1](https://github.com/amefedora/keyword-extraction/assets/65814424/a2de6b9a-e51a-4ba0-8d81-1797aa94acf7)
   
 - Drop unused columns and combine the Title and Abstract attribute into one record
-  This experiment will only use the Id, Year, and the combination of Title and Abstract attribute therefore I drop the other attributes.
+  This experiment will only use the Id, Year, and the combination of Title and Abstract attribute therefore I drop the other unuse attributes. The combination of Title and Abstract attribute then called as **abstract1** attribute.
   
   ![2](https://github.com/amefedora/keyword-extraction/assets/65814424/45114618-2585-43ee-8276-1ec9415c2df4)
 
 # Text Processing
-The combination of Title and Abstract attribute is classified into word count, common word, and uncommon word.
+1. Remove the punctuation, tags, special characters and digit of abstract1 attribute and convert all words to lowercase.
+2. Create abstract1 word count column as new attribute. The word count column will filled with the value of word count. 
+  ![3](https://github.com/amefedora/keyword-extraction/assets/65814424/ac5cefc9-982b-475e-809b-e6d06e5da6e4)
+3. Create a new variable to classified the common and uncommon word from the abstract1 column. In this experiment, if the word count is more than 20 then the word classified as the common word, otherwise if the word count is less than 20 then the word classified as the uncommon word. The common word and the uncommon word will classification will use to make a stop word corpus later. 
+  
+  | Common Words  | Uncommon Words |
+  | ------------- | ------------- |
+  | ![4](https://github.com/amefedora/keyword-extraction/assets/65814424/12a35422-9fad-476f-8dbc-5e68af3b87ec) |  ![5](https://github.com/amefedora/keyword-extraction/assets/65814424/82ef7cb8-6eda-4e7d-83aa-610a34ba65b0)|
+  
+
+
